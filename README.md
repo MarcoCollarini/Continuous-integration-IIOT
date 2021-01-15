@@ -66,7 +66,7 @@ ALFABETO_CRIPTATO = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
     - utilizzando la formula citata in [precedenza](https://github.com/MarcoCollarini/Continuous-integration-IIOT/blob/main/README.md#formula-utilizzata) otteniamo la posizione       di `letter` all'interno di `ALFABETO_CRIPTATO`
     - salvataggio della lettera criptata all'interno di `AUX_ALPHABET`
   - output di `AUX_ALPHABET`
-> *NB: Questo array ci permette di accoppiare le lettere dell'alfabeto latino con quelle dell'alfabeto criptato
+> *NB: Questo array ci permette di accoppiare le lettere dell'alfabeto latino con quelle dell'alfabeto criptato*
     
 - `decryptSentence(decryptKey : [])` → 
 
