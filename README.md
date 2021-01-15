@@ -27,8 +27,27 @@ ipotizzando che il carattere *@* fosse un punto.
 
 > ***Fase di ricerca della chiave di criptazione***
 
-Abbiamo inizialmente ipotizzato che l'afabeto utilizzato nella frase cifrata fosse a 28 lettere, di conseguenza bisognava trovare un numero x tale che ***posizioneLettera * x % 29***
-desse come risultato la posizione della lettera nell'alfabeto "latino". Il modulo di 29, che è un numero primo, è dovuto dal fatto che nell'alfabeto sono presenti
+Abbiamo inizialmente ipotizzato che l'afabeto utilizzato nella frase cifrata fosse a 28 lettere, di conseguenza bisogna trovare un numero x tale che ***posizioneLettera * x % 29*** dia come risultato la posizione della lettera nell'alfabeto "latino". Il modulo di 29, che è un numero primo, è dovuto dal fatto che nell'alfabeto sono presenti
 28 lettere e facendo il modulo di 29 abbiamo la possibilità di impostare un *range*, garantendo l'associazione di tutti i caratteri.
+
+Abbiamo tradotto parte della frase manualmente per avere dei dati su cui basarci. I risultati ottenuti sono i seguenti:
+
+```
+S (19) -> M (13)
+T (20) -> C (3)
+U (21) -> V (22)
+V (22) -> L (12)
+
+```
+
+Assumendo che `p = 29` possiamo notare che l'incremento tra le lettere successive di destra (mod 29) è 19. 
+
+Quindi `f(x) = 19*x`.
+
+
+
+
+
+
 
 
