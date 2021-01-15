@@ -1,6 +1,6 @@
-FRASE = "VCZJCZIZJMZJLXYHMJYHEMCWSJM\WZNCXWJSYQXWZCOXJHMCJDVSOJ\HYHWWZOH@"
-ALFABETO_LATINO = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","\\"," ","."]
-ALFABETO_CRIPTATO = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"," ","\\", "@"]
+FRASE = "OZJ[SJOXYCXYNZS\HWHJXWSJISE\SJMXYXJVEJNWXQWSOOSJ[SCCXJIHEH@"
+ALFABETO_LATINO =   ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","\\"," ","."] 
+ALFABETO_CRIPTATO = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","[","\\", "@"]
 WORDS = []
 
 def splitWord(frase):
@@ -40,6 +40,10 @@ def decryptSentence(decryptKey : []):
     decryptedSentence = ""
     for letter in FRASE:
         decryptedSentence += ALFABETO_LATINO[decryptKey.index(letter)]
+        print(letter)
+        print(decryptKey.index(letter))
+        print(ALFABETO_LATINO[decryptKey.index(letter)])
+        
     return decryptedSentence
 
 
@@ -49,9 +53,9 @@ print(FRASE)
 print(decryptSentence(ALFABETO_DECRIPTATO))
 splitWord(FRASE)
 #print(longestWord())
-#print(ALFABETO_LATINO)
-#print(ALFABETO_CRIPTATO)
-#print(ALFABETO_DECRIPTATO)
+print(ALFABETO_LATINO)
+print(ALFABETO_CRIPTATO)
+print(ALFABETO_DECRIPTATO)
 
 
 
