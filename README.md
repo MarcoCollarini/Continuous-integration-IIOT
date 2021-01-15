@@ -42,7 +42,9 @@ Assumendo che `p = 29` possiamo notare che l'incremento tra le lettere successiv
 
 Quindi `f(x) = 19*x`.
 
+> ***Fase di progettazione***
 
+Abbiamo inizialmente creato un array `ALFABETO_LATINO = ["A","B",...,"Z","\\"," ","."]`  
 
 
 
