@@ -10,7 +10,7 @@
 
 Sia dato il messaggio seguente in codice:
 
-> V C Z J	C	Z	I	Z	J	M	Z	J	L	X	Y	H	M	J	Y	H	E	M	C	W	S	J	M	\	W	Z	N	C	X	W	J	S	Y	Q	X	W	Z	C	O	X	J	H	M	C	J	D	V	S	O	J	\	H	Y	H	W	W	Z	O	H	@
+ `V C Z J	C	Z	I	Z	J	M	Z	J	L	X	Y	H	M	J	Y	H	E	M	C	W	S	J	M	\	W	Z	N	C	X	W	J	S	Y	Q	X	W	Z	C	O	X	J	H	M	C	J	D	V	S	O	J	\	H	Y	H	W	W	Z	O	H	@`
 
 Si scriva un programma che proponga una possibile decriptazione dello stesso sapendo che il messaggio originale è in LATINO e che è stato utilizzato un carattere anche per la spaziatura (il carattere J). Se decriptato fornisce un consiglio per l'esercizio successivo. Il voto viene dato dalla valutazione del modo utilizzato per la decriptazione. Informazioni aggiuntive:
 - E' un codice che usa una formula y = f(x) mod p con p un primo
