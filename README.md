@@ -54,7 +54,8 @@ ALFABETO_CRIPTATO = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 - ALFABETO_LATINO → Vettore contenente le lettere dell'alfabeto, aggiungendo alcuni caratteri speciali
 - ALFABETO_CRIPTATO → Vettore contenete le lettere dell'ipotetico alfabeto cifrato
 
-
-
+> ***Creazione funzioni***
+- `findCryptoKey()` → 
+- `decryptSentence(decryptKey : [])` → 
 
 
