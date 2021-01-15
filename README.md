@@ -42,6 +42,10 @@ Assumendo che `p = 29` possiamo notare che l'incremento tra le lettere successiv
 
 Quindi `f(x) = 19*x`.
 
+### Formula utilizzata
+
+Seguendo la consegna la furmula che otteniamo sarà `y = 19 * x % 29` 
+
 ### Sviluppo
 
 > ***Creazione variabili***
@@ -59,7 +63,7 @@ ALFABETO_CRIPTATO = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
   - creazione di an array ausiliario `AUX_ALPHABET = []` 
   - scansione di ogni lettera `letter` presente nell'array `ALFABETO_LATINO` 
     - salvataggio della posizione di `letter` presente in `ALFABETO_LATINO`
-    - utilizzando la formula citata in [precedenza]()  
+    - utilizzando la formula citata in [precedenza](https://github.com/MarcoCollarini/Continuous-integration-IIOT/blob/main/README.md#formula-utilizzata)  
 - `decryptSentence(decryptKey : [])` → 
 
 
