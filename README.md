@@ -37,9 +37,7 @@ S (19) -> M (13)
 T (20) -> C (3)
 U (21) -> V (22)
 V (22) -> L (12)
-
 ```
-
 Assumendo che `p = 29` possiamo notare che l'incremento tra le lettere successive di destra (mod 29) è 19. 
 
 Quindi `f(x) = 19*x`.
