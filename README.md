@@ -42,10 +42,17 @@ Assumendo che `p = 29` possiamo notare che l'incremento tra le lettere successiv
 
 Quindi `f(x) = 19*x`.
 
-> ***Fase di progettazione***
+### Sviluppo
 
-Abbiamo inizialmente creato un array `ALFABETO_LATINO = ["A","B",...,"Z","\\"," ","."]`  
-
+> ***Creazione variabili***
+```
+FRASE = "OZJ[SJOXYCXYNZS\HWHJXWSJISE\SJMXYXJVEJNWXQWSOOSJ[SCCXJIHEH@"
+ALFABETO_LATINO =   ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","\\"," ","."] 
+ALFABETO_CRIPTATO = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","[","\\", "@"]
+```
+- FRASE → Codice da decriptare, paramentro dato in input
+- ALFABETO_LATINO → Vettore contenente le lettere dell'alfabeto, aggiungendo alcuni caratteri speciali
+- ALFABETO_CRIPTATO → Vettore contenete le lettere dell'ipotetico alfabeto cifrato
 
 
 
