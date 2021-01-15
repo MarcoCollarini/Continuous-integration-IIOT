@@ -55,7 +55,11 @@ ALFABETO_CRIPTATO = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 - ALFABETO_CRIPTATO → Vettore contenete le lettere dell'ipotetico alfabeto cifrato
 
 > ***Creazione funzioni***
-- `findCryptoKey()` → 
+- `findCryptoKey()` → l'algoritmo si compone di quanto segue:
+  - creazione di an array ausiliario `AUX_ALPHABET = []` 
+  - scansione di ogni lettera `letter` presente nell'array `ALFABETO_LATINO` 
+    - salvataggio della posizione di `letter` presente in `ALFABETO_LATINO`
+    - utilizzando la formula citata in [precedenza]()  
 - `decryptSentence(decryptKey : [])` → 
 
 
