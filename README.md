@@ -80,7 +80,7 @@ ALFABETO_CRIPTATO = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
   
 ### Conclusioni
 
-Eseguendo il codice la stringa `FRASE = OZJ[SJOXYCXYNZS\HWHJXWSJISE\SJMXYXJVEJNWXQWSOOSJ[SCCXJIHEH@ ` viene decriptata in `UTI TIBI SI VOLES LENSTRA SCRIPTOR ALGORITMO EST QUAM CELERRIME.`.
+Eseguendo il codice la stringa `FRASE = VCZJCZIZJMZJLXYHMJYHEMCWSJM\WZNCXWJSYQXWZCOXJHMCJDVSOJ\HYHWWZOH@ ` viene decriptata in `UTI TIBI SI VOLES LENSTRA SCRIPTOR ALGORITMO EST QUAM CELERRIME.`.
 
 In seguito abbiamo pensato di sviluppare un algoritmo che fosse in grado di criptare un messaggio scritto in chiaro utilizzando la [formula](https://github.com/MarcoCollarini/Continuous-integration-IIOT/blob/main/README.md#formula-utilizzata). 
 
