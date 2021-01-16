@@ -8,7 +8,7 @@
 
 ### Consegna
 
-Sia dato il messaggio seguente in codice:
+Sia dato il seguente messaggio in codice:
 
  `V C Z J	C	Z	I	Z	J	M	Z	J	L	X	Y	H	M	J	Y	H	E	M	C	W	S	J	M	\	W	Z	N	C	X	W	J	S	Y	Q	X	W	Z	C	O	X	J	H	M	C	J	D	V	S	O	J	\	H	Y	H	W	W	Z	O	H	@`
 
