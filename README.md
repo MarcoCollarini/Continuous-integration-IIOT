@@ -72,7 +72,9 @@ ALFABETO_CRIPTATO = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
   - creazione di una variabile ausiliaria `decryptedSentence = ""`
   - scansione di ogni lettera `letter` presente nella stringa `FRASE`
     - concatenazione della lettera presente in `ALFABETO_LATINO` nella posizione di `letter` all'interno dell'array `decryptKey` 
-      > *decryptedSentence += ALFABETO_LATINO[decryptKey.index(letter)]*
+      > *decryptedSentence += ALFABETO_LATINO[decryptKey.index(letter)]*`
+  - `return` di `decryptedSentence`
+
       
 
 
