@@ -92,7 +92,7 @@ Messaggio criptato:
 
 ### Consegna
 
-Sia dato un numero intero `0<n<10.000.000.000`, proporre un programma che lo fattorizzi nei suoi fattori primi. Deve essere implementato il tempo di esecuzione del programma mediante la libreria `time`. Il voto del programma verrà dato in base al tempo di esecuzione del programma in particolare su tre numeri assegnati al momento della verifica seguendo il seguente criterio: 
+Sia dato un numero intero `0 < n < 10.000.000.000`, proporre un programma che lo fattorizzi nei suoi fattori primi. Deve essere implementato il tempo di esecuzione del programma mediante la libreria `time`. Il voto del programma verrà dato in base al tempo di esecuzione del programma in particolare su tre numeri assegnati al momento della verifica seguendo il seguente criterio: 
 - Vengono calcolati i tempi di esecuzione di ciascun programma a meno di 6 cifre decimali.
 - Viene valutato il corretto output del programma
 - Viene stilata una classifica delle tempistiche tra i programmi con il corretto output e stabilito il voto. Migliore sarà il tempo, migliore sarà il voto. Il tempo più basso avrà voto 100/100. Il tempo peggiore, se rispetterà l'output, avrà voto 60/100.
