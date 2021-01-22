@@ -113,7 +113,7 @@ Nonostante "l'indizio" rivelato dall'[esercizio precedente](https://github.com/M
 ### Risultato
 
 <p align="left">
-  <img src="/ref/result.PNG?raw=true" />
+  <img src="/ref/result.jpg?raw=true" />
 </p>
 
 # Il team
