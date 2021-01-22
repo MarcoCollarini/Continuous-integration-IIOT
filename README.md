@@ -98,6 +98,14 @@ Sia dato un numero intero `0 < n < 10.000.000.000`, proporre un programma che lo
 - Viene stilata una classifica delle tempistiche tra i programmi con il corretto output e stabilito il voto. Migliore sarà il tempo, migliore sarà il voto. Il tempo più basso avrà voto 100/100. Il tempo peggiore, se rispetterà l'output, avrà voto 60/100.
 - Verranno assegnati voti negativi se l'output richiesto non verrà raggiunto.
 
+## Algoritmo utilizzato 
+
+Nonostante "l'indizio" rivelato dall'[esercizio precedente]((https://github.com/MarcoCollarini/Continuous-integration-IIOT/blob/main/README.md#conclusioni), abbiamo deciso di utilizzare l'algoritmo di `Trial Division`, perchè dopo alcune ricerche online ci sembrava il più efficiente. 
+
+
+
+
+
 # Il team
 
 - [**Marco Collarini**](https://github.com/MarcoCollarini)
