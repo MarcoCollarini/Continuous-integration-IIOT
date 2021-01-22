@@ -8,7 +8,7 @@ def fattorizzazione(n: int):        # Funzione che fattorizza di 'v'
     array = []                      # Creazione dell'array dentro al quale verranno salvati i fattori di 'n'
     while n % 2 == 0:               
         array.append(2)             # Finchè il resto di n/2 sarà 0 inserisce '2' in 'array' 
-        n /= 2
+        n /= 2                      
     f = 3                           # Creazione di 'f = 3' dove 'f' è il prossimo numero primo che va a dividere 'n'
     while f * f <= n:               
         if n % f == 0:  
@@ -34,12 +34,15 @@ def calcola_ripetizioni(v : []):            # Funzione che calcola le ripetizion
             ripetizioni.append([x,1])       # Nel caso in cui non fosse stato trovato, viene aggiunta la coppia [x,1]
     return ripetizioni                      # Ritorna 'ripetizioni'
 
-def stampa(v:[]):                                                           # Funzione che formatta e stampa il risultato ottenuto 
-    res = ""                                                                # Creazione di stringa ausiliaria 'res' 
-    for x in v:                                               # Cicla fino alla fine di 'v'
+
+def stampa(v:[]):                                               # Funzione che formatta e stampa il risultato ottenuto 
+    res = ""                                                    # Creazione di stringa ausiliaria 'res' 
+    for x in v:                                                 # Cicla fino alla fine di 'v'
         if(x[1] > 1):                    
             if v.index(x) != len(v)-1:                                   
                 res += str(x[0]) + "^" + str(x[1]) + " * "      # Se il numero nel quale 'n' si ripete è > 1 e se il valore letto non è l'ultimo allora aggiunge in 'res' la stringa 
+            else:
+                res += str(x[0])                               
         else: 
             if v.index(x) != len(v)-1:
                 res += str(x[0]) + " * "                        # Se il numero nel quale 'n' si ripete è == 0 e se il valore letto non è l'ultimo allora aggiunge in 'res' la stringa 
@@ -48,12 +51,8 @@ def stampa(v:[]):                                                           # Fu
     return res                                                  # Ritorna res
 
 n = int(input("Inserisci un numero: "))                         # Richiede in input il valore di 'n'
-
 start_time = time.time()                                        # Start cronomentro 
-
 v = calcola_ripetizioni(fattorizzazione(n))                     # Richiama la funzione calcola_ripetizioni() passando come paramentro il risultato ritornato da fattorizzazione(n)
-
 tempo_impiegato = round(time.time() - start_time, 5)            # Stop cronometro 
-
 print(stampa(v))                                                # Stampa risultato
 print("Tempo di esecuzione: " + str(tempo_impiegato))           # Stampa il tempo di esecuzione
