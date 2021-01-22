@@ -55,4 +55,4 @@ start_time = time.time()                                        # Start cronomen
 v = calcola_ripetizioni(fattorizzazione(n))                     # Richiama la funzione calcola_ripetizioni() passando come paramentro il risultato ritornato da fattorizzazione(n)
 tempo_impiegato = round(time.time() - start_time, 5)            # Stop cronometro 
 print(stampa(v))                                                # Stampa risultato
-print("Tempo di esecuzione: " + str(tempo_impiegato))           # Stampa il tempo di esecuzione
+print("Tempo di esecuzione: " + str(tempo_impiegato)+"s")           # Stampa il tempo di esecuzione
