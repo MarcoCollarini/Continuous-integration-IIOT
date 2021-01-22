@@ -1,5 +1,5 @@
 ##############################Programma svolto da################################
-#####Vendrame Alessandro, Collarini Marco, Maraspin Lorenzo, Apostu Gabriel######
+#####Vendrame Alessandro, Collarini Marco########################################
 ###Dopo una ricerca abbiamo deciso di utilizzare l'algoritmo di Trial Division###
 #################################################################################
 import time
