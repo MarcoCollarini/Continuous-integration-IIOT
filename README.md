@@ -100,7 +100,7 @@ Sia dato un numero intero `0 < n < 10.000.000.000`, proporre un programma che lo
 
 ## Algoritmo utilizzato 
 
-Nonostante "l'indizio" rivelato dall'[esercizio precedente](https://github.com/MarcoCollarini/Continuous-integration-IIOT/blob/main/README.md#esercizio-1), abbiamo deciso di utilizzare l'algoritmo di `Trial Division`, perchè dopo alcune ricerche online ci sembrava il più efficiente. 
+Nonostante "l'indizio" rivelato dall'[esercizio precedente](https://github.com/MarcoCollarini/Continuous-integration-IIOT/blob/main/README.md#esercizio-1), abbiamo deciso di utilizzare l'[algoritmo di `Trial Division`](https://github.com/MarcoCollarini/Continuous-integration-IIOT/blob/main/FactorizationScript/factorizationScript.py), perchè dopo alcune ricerche online ci sembrava il più efficiente. 
 
 ### Sviluppo
 
@@ -112,9 +112,9 @@ Nonostante "l'indizio" rivelato dall'[esercizio precedente](https://github.com/M
 
 ### Conclusioni
 
-
-
-
+<p align="center">
+  <img src="/ref/result.png?raw=true" />
+</p>
 
 # Il team
 
