@@ -110,9 +110,9 @@ Nonostante "l'indizio" rivelato dall'[esercizio precedente](https://github.com/M
 - `calcola_ripetizioni(v : [])` →  Funzione che ritorna un array composto da [x,y] dove x è il numero primo e y è il numero di volte che si ripete
 - `stampa(v:[])` →  Funzione che formatta e stampa il risultato ottenuto sulla console
 
-### Conclusioni
+### Risultato
 
-<p align="center">
+<p align="left">
   <img src="/ref/result.PNG?raw=true" />
 </p>
 
