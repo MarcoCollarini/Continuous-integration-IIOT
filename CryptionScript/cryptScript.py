@@ -3,27 +3,6 @@ ALFABETO_LATINO =   ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 ALFABETO_CRIPTATO = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z","[","\\", "@"]
 WORDS = []
 
-def splitWord(frase):
-    parola = []
-    index = 0
-    for x in frase:
-        if x == "J" or x == "@":
-            WORDS.append(parola)
-            #print(parola)
-            parola = []
-        else:
-            parola.append(x)
-           
-
-def longestWord():
-    longest = []
-    dim = 0
-    for word in WORDS:
-        dim = len(word)
-        if dim > len(longest):
-            longest = word
-    return longest
-
 def findCryptoKey():
     AUX_ALPHABET = []
     for letter in ALFABETO_LATINO:
@@ -42,12 +21,9 @@ def decryptSentence(decryptKey : []):
         decryptedSentence += decryptKey[ALFABETO_LATINO.index(letter)]
     return decryptedSentence
 
-
-
 ALFABETO_DECRIPTATO = findCryptoKey()
 print(FRASE)
 print(decryptSentence(ALFABETO_DECRIPTATO))
-splitWord(FRASE)
 #print(longestWord())
 print(ALFABETO_LATINO)
 print(ALFABETO_CRIPTATO)
